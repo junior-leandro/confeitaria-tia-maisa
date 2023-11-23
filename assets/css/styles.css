@@ -1,0 +1,106 @@
+:root {
+    --cor-primaria: #e2e2e2;
+
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, rgb(255, 208, 255), rgb(216, 104, 188));
+}
+
+.header {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-size: 32px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.menu a {
+    font-weight: 600;
+    color: var(--cor-primaria);
+    text-decoration: none;
+
+}
+
+.provisoria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: rgb(49, 49, 49);
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+}
+
+.socials {
+    width: 50px;
+}
+
+main {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4em;
+}
+
+.bolo {
+    min-width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+}
+
+.bolo:hover {
+    transform: scale(1.01);
+    min-width: 30%;
+}
+
+.bolo-1 {
+    background-image: url(../images/bolo-1.jpg);
+    height: 60vh;
+}
+
+.bolo-2 {
+    background-image: url(../images/bolo-2.jpg);
+    height: 62vh;
+}
+
+.bolo-3 {
+    background-image: url(../images/bolo-3.jpg);
+    height: 65vh;
+}
+
+.bolo-4 {
+    background-image: url(../images/bolo-4.jpg);
+    height: 62vh;
+}
+
+.bolo-5 {
+    background-image: url(../images/bolo-5.jpg);
+    height: 60vh;
+}

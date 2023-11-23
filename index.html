@@ -4,49 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Confeitaria da Tia Maisa</title>
 </head>
 
-<body class="h-screen w-screen bg-gradient-to-t from-red-200 to-red-50 flex flex-col items-center">
+<body>
 
-<header class="w-full max-w-[1200px] flex items-center justify-between">
-    <div>
-        <img src="./assets/logo.png" alt="logo" class="w-[200px] cursor-pointer">
-    </div>
-    
-    <nav class="text-red-500 text-2xl font-bold flex gap-5">
-        <a href=”#”>CATEGORIAS</a>
-        <a href=”#”>COMPRAR</a>
-        <a href=”#”>CONTATO</a>
-        <a href=”#”>SOBRE</a>
-    </nav>
-    <div>
-        <ul class="flex items-center justify-center cursor-pointer">
-            <li>
-                <img src="./assets//logo-facebook.webp" alt="icone facebook" class="w-[50px]">
-            </li>
-            <li>
-                <img src="./assets//logo-instagram.webp" alt="icone instagram" class="w-[58px] -ml-1">
-            </li>
-            <li>
-                <img src="./assets//logo-whatsapp.webp" alt="icone whatsapp" class="w-[35px]">
-            </li>
-            <li>
-                <img src="./assets//icone-sacola.png" alt="icone sacola" class="w-[45px] ml-1">
-            </li>
-        </ul>
-    </div>
-</header>
+    <header class="header">
+        <div>
+            <img src="./assets/images/logo.png" alt="logo" class="logo">
+        </div>
+
+        <nav class="menu">
+            <a href=”#”>CATEGORIAS</a>
+            <a href=”#”>COMPRAR</a>
+            <a href=”#”>CONTATO</a>
+            <a href=”#”>SOBRE</a>
+        </nav>
+        <div class="provisoria">
+            <ul class="social-list">
+                <li>
+                    <img src="./assets/images/logo-facebook.webp" alt="icone facebook" class="socials">
+                </li>
+                <li>
+                    <img src="./assets/images/logo-instagram.webp" alt="icone instagram" class="socials">
+                </li>
+                <li>
+                    <img src="./assets/images/logo-whatsapp.webp" alt="icone whatsapp" class="socials">
+                </li>
+                <li>
+                    <img src="./assets/images/icone-sacola.png" alt="icone sacola" class="socials">
+                </li>
+            </ul>
+            
+            <span>"Icones Provisórios"</span>
+        </div>
+    </header>
     <main>
-        <section class="flex gap-2">
-            <img src="./assets//bolo-1.jpg" alt="Foto de bolo 4" class="w-[250px] h-[400px] rounded-xl">
-            <img src="./assets//bolo-2.jpg" alt="Foto de bolo 2" class="w-[250px] h-[400px] rounded-xl">
-            <img src="./assets//bolo-3.jpg" alt="Foto de bolo 3" class="w-[250px] h-[400px] rounded-xl">
-            <img src="./assets//bolo-4.jpg" alt="Foto de bolo 4" class="w-[250px] h-[400px] rounded-xl">
-            <img src="./assets//bolo-5.jpg" alt="Foto de bolo 5" class="w-[250px] h-[400px] rounded-xl">
+        <section class="hero">
+            <div class="bolo bolo-1"></div>
+            <div class="bolo bolo-2"></div>
+            <div class="bolo bolo-3"></div>
+            <div class="bolo bolo-4"></div>
+            <div class="bolo bolo-5"></div>
         </section>
-        
+
     </main>
     <footer>
 
