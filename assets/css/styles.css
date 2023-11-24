@@ -1,5 +1,7 @@
 :root {
     --cor-primaria: #e2e2e2;
+    --menu-hover: #fc46d5;
+    --cor-primaria-escura: #1f1f1f;
 
 }
 
@@ -21,18 +23,26 @@ body {
     justify-content: space-between;
     align-items: center;
     color: var(--cor-primaria);
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .logo {
     width: 200px;
 }
-
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
 .menu a {
-    font-weight: 600;
+    font-weight: 700;
     color: var(--cor-primaria);
     text-decoration: none;
-
+}
+.menu a:hover {
+    color: var(--menu-hover);
+    text-decoration: underline;
 }
 
 .provisoria {
@@ -103,4 +113,26 @@ main {
 .bolo-5 {
     background-image: url(../images/bolo-5.jpg);
     height: 60vh;
+}
+
+/*  conteudo  */
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.conteudo h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--cor-primaria);
+
+}
+
+.conteudo p {
+    text-align: justify;
+    color: var(--cor-primaria-escura);
+    font-size: 20px;
 }
